@@ -1,0 +1,10 @@
+# Wavefront OBJ format --> Autodesk
+# triangle.obj
+
+# Geometry:
+v 0 0 0     # Punto A
+v 3 2 1     # Punto B
+v 1 1 1     # Punto C
+
+# Topology:
+f 1 2 3     # Conectar vector 1 con 2 con 3 con 1
