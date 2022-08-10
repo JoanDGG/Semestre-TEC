@@ -118,21 +118,4 @@ public class setMesh : MonoBehaviour
         myMesh.vertices = octaedro.vertices;
         myMesh.triangles = octaedro.triangles;
     }
-
-    Vector3[] Tessellation(Vector3[] vertices, int[] triangles)
-    {
-        Vector3 A = vertices[0];
-        Vector3 B = vertices[1];
-        Vector3 C = vertices[2];
-        Vector3 AB = (A + B)/2;
-        Vector3 AC = (A + C)/2;
-        Vector3 BC = (B + C)/2;
-        return new Vector3[]
-        {
-            A, AB, AC,
-            AB, B, BC,
-            AC, BC, C,
-            AB, BC, AC
-        };
-    }
 }
