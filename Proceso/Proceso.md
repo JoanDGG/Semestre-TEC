@@ -18,7 +18,7 @@ Esta es la primera actividad que se realizó en el programa de modelado de Blend
 
 Final:
 
-![Primero]()
+![Primero](https://github.com/JoanDGG/Semestre-TEC/blob/c42b6609c73e8026fe751a2654571b0d57c74eb8/Proceso/Imagenes/Primero.png)
 
 ## Actividad: Render Texture
 
@@ -26,7 +26,7 @@ Dentro de Unity, se aprendió a realizar proyecciones en tiempo real de la vista
 
 Final:
 
-![Render Texture]()
+![Render Texture](https://github.com/JoanDGG/Semestre-TEC/blob/c42b6609c73e8026fe751a2654571b0d57c74eb8/Proceso/Imagenes/Render.png)
 
 ## Actividad: Modelado en Blender
 
@@ -34,4 +34,4 @@ Aquí se realizó una animación en Blenedr con el modelo pre fabricado de Snow,
 
 Final:
 
-![Snow Pose]()
+![Snow Pose](https://github.com/JoanDGG/Semestre-TEC/blob/c42b6609c73e8026fe751a2654571b0d57c74eb8/Proceso/Imagenes/Snow.png)
