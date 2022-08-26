@@ -9,36 +9,71 @@ using UnityEngine;
 public class setMesh : MonoBehaviour
 {
     struct Shape{
-        public Vector3[] vertices;
-        public int[] triangles;
+        public List<Vector3> vertices;
+        public List<int> triangles;
     };
 
-    Shape Tessellate(Shape input)
+    void Tessellate(Shape input)
     {
-        Vector3[] verticesI = input.vertices;
-        int[] trianglesI = input.triangles;
-        Vector3 A = verticesI[0];
-        Vector3 B = verticesI[1];
-        Vector3 C = verticesI[2];
-        Vector3 AB = (A + B)/2;
-        Vector3 AC = (A + C)/2;
-        Vector3 BC = (B + C)/2;
-        Vector3[] verticesO = new Vector3[6]{ A, B, C, AB, BC, AC };
-        int[] trianglesO = new int[12]{ 0, 3, 5, 3, 1, 4, 5, 4, 2, 3, 4, 5 };
-        Shape newShape = new Shape();
-        newShape.vertices = verticesO;
-        newShape.triangles = trianglesO;
-        return newShape;
+        for(int t= 0; t < input.triangles.Count; t+=12)
+        {
+            Vector3 A = input.vertices[input.triangles[t+0]];
+            Vector3 B = input.vertices[input.triangles[t+1]];
+            Vector3 C = input.vertices[input.triangles[t+2]];
+            Vector3 o = ((A+B)/2.0f).normalized;
+            Vector3 p = ((B+C)/2.0f).normalized;
+            Vector3 q = ((C+A)/2.0f).normalized;
+            int ia = input.triangles[t+0];
+            int ib = input.triangles[t+1];
+            int ic = input.triangles[t+2];
+            int io = FindVertex(input.vertices, o);
+            int ip = FindVertex(input.vertices, p);
+            int iq = FindVertex(input.vertices, q);
+ 
+            if(io == -1)
+            {
+                input.vertices.Add(o);
+                io = input.vertices.Count-1;
+            }
+            if(ip == -1)
+            {
+                input.vertices.Add(p);
+                ip = input.vertices.Count-1;
+            }
+            if(iq == -1)
+            {
+                input.vertices.Add(q);
+                iq = input.vertices.Count-1;
+            }
+            
+            List<int> newT = new List<int>();
+            for(int i = 0; i < t; i++)
+                newT.Add(input.triangles[i]);
+            newT.Add(ia); newT.Add(io); newT.Add(iq);
+            newT.Add(io); newT.Add(ib); newT.Add(ip);
+            newT.Add(iq); newT.Add(ip); newT.Add(ic);
+            newT.Add(io); newT.Add(ip); newT.Add(iq);
+            for(int i = t+3; i < input.triangles.Count; i++)
+                newT.Add(input.triangles[i]);
+            input.triangles.Clear();
+            for(int i = 0; i < newT.Count; i++)
+                input.triangles.Add(newT[i]);
+        }
+    }
+
+    int FindVertex(List<Vector3> list, Vector3 vertice)
+    {
+        return list.IndexOf(vertice);
     }
 
     Mesh myMesh;
-    
     void Start()
     {
         myMesh = new Mesh();
+
+        SetOctaedro();
         //SetTriangle();
         //SetCube();
-        SetOctaedro();
 
         myMesh.RecalculateNormals();
         MeshRenderer mr = gameObject.AddComponent<MeshRenderer>();
@@ -50,31 +85,33 @@ public class setMesh : MonoBehaviour
     void SetTriangle()
     {
         Shape triangle = new Shape();
-        triangle.vertices = new Vector3[3]{
+        triangle.vertices = new List<Vector3>{
             new Vector3(0, 0, 0),
-            new Vector3(12, 0, 0),
+            new Vector3(13, 0, 0),
             new Vector3(5, 12, 0)
         };
-        triangle.triangles = new int[3]{0, 1, 2};
+        triangle.triangles = new List<int>{0, 1, 2};
 
-        Shape newTriangle = Tessellate(triangle);
+        Tessellate(triangle);
 
-        myMesh.vertices = newTriangle.vertices;
-        myMesh.triangles = newTriangle.triangles;
+        myMesh.vertices = triangle.vertices.ToArray();
+        myMesh.triangles = triangle.triangles.ToArray();
     }
     void SetCube()
     {
-        Vector3[] newVertices = new Vector3[8];
-        newVertices[0] = new Vector3(-1, -1, 1);
-        newVertices[1] = new Vector3(1, -1, 1);
-        newVertices[2] = new Vector3(1, 1, 1);
-        newVertices[3] = new Vector3(-1, 1, 1);
-        newVertices[4] = new Vector3(1, -1, -1);
-        newVertices[5] = new Vector3(1, 1, -1);
-        newVertices[6] = new Vector3(-1, -1, -1);
-        newVertices[7] = new Vector3(-1, 1, -1);
-        
-        int[] newTriangles = new int[]{
+        Shape cube = new Shape();
+        cube.vertices = new List<Vector3>(){
+            new Vector3(-1, -1, 1),
+            new Vector3(1, -1, 1),
+            new Vector3(1, 1, 1),
+            new Vector3(-1, 1, 1),
+            new Vector3(1, -1, -1),
+            new Vector3(1, 1, -1),
+            new Vector3(-1, -1, -1),
+            new Vector3(-1, 1, -1)
+        };
+
+        cube.triangles = new List<int>{
             0, 1, 2,
             0, 2, 3,
             1, 4, 5,
@@ -89,33 +126,37 @@ public class setMesh : MonoBehaviour
             1, 6, 4
         };
 
-        myMesh.vertices = newVertices;
-        myMesh.triangles = newTriangles;
+        myMesh.vertices = cube.vertices.ToArray();
+        myMesh.triangles = cube.triangles.ToArray();
     }
     void SetOctaedro()
     {
         Shape octaedro = new Shape();
-        octaedro.vertices = new Vector3[6]{
+            octaedro.vertices = new List<Vector3>(){
+            new Vector3(0, 0, 1),
             new Vector3(1, 0, 0),
             new Vector3(0, 0, -1),
             new Vector3(-1, 0, 0),
-            new Vector3(0, 0, 1),
             new Vector3(0, 1, 0),
             new Vector3(0, -1, 0)
-        };
+        };  
         
-        octaedro.triangles = new int[]{
-            0, 1, 4,
+        octaedro.triangles = new List<int>(){   
+            0, 1, 4, 
             1, 2, 4,
-            2, 3, 4,
+            2, 3, 4, 
             3, 0, 4,
-            5, 1, 0,
-            5, 2, 1,
-            5, 3, 2,
-            5, 0, 3
+    
+            0, 5, 1,
+            1, 5, 2,
+            2, 5, 3,
+            3, 5, 0
         };
 
-        myMesh.vertices = octaedro.vertices;
-        myMesh.triangles = octaedro.triangles;
+        Tessellate(octaedro);
+        Tessellate(octaedro);
+        Tessellate(octaedro);
+        myMesh.vertices = octaedro.vertices.ToArray();
+        myMesh.triangles = octaedro.triangles.ToArray();
     }
 }
