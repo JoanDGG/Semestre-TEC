@@ -38,15 +38,24 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\CambiarColor.cs" />
      <Compile Include="Assets\Scripts\Rebote.cs" />
+     <Compile Include="Assets\Flare Gun\Scripts\swayc.cs" />
+     <Compile Include="Assets\Scripts\MovimientoDisparo.cs" />
      <Compile Include="Assets\Scripts\Escalado.cs" />
+     <Compile Include="Assets\Scripts\AnimacionDisparo.cs" />
      <Compile Include="Assets\Scripts\DriveDrone.cs" />
+     <Compile Include="Assets\Flare Gun\Scripts\flareround.cs" />
      <Compile Include="Assets\Scripts\AnimacionChubby.cs" />
+     <Compile Include="Assets\Scripts\Explosion.cs" />
      <Compile Include="Assets\Scripts\setMesh.cs" />
+     <Compile Include="Assets\Scripts\Disparo.cs" />
+     <Compile Include="Assets\Flare Gun\Scripts\Flaregun.cs" />
      <Compile Include="Assets\Scripts\Rotacion.cs" />
      <Compile Include="Assets\Scripts\CarAnimation.cs" />
+     <Compile Include="Assets\Flare Gun\Scripts\flarebullet.cs" />
      <Compile Include="Assets\Scripts\Translacion.cs" />
      <Compile Include="Assets\Scripts\DoorsInput.cs" />
-     <Compile Include="Assets\Scripts\Explosion.cs" />
+     <Compile Include="Assets\Scripts\AudioManager.cs" />
+     <Compile Include="Assets\Scripts\Personaje.cs" />
      <None Include="Assets\Imports\Planets\shader\two_side_shader.shader" />
     <Reference Include="UnityEngine">
         <HintPath>D:/Unity/2020.2.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
