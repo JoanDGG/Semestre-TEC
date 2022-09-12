@@ -2,7 +2,6 @@
 Aquí se desplegarán avances de actividades/tareas/proyectos conforme sea necesario
 
 ## Actividad: Octaedro tesselado
-### Fecha: 10/08/2022
 
 Para realizar la tesselación del octaedro:
 
@@ -35,3 +34,26 @@ Aquí se realizó una animación en Blenedr con el modelo pre fabricado de Snow,
 Final:
 
 ![Snow Pose](https://github.com/JoanDGG/Semestre-TEC/blob/c42b6609c73e8026fe751a2654571b0d57c74eb8/Proceso/Imagenes/Snow.png)
+
+## Actividad: Texturas y materiales
+
+En esta actividad se realizó el texturizado utilizando la herramienta de UV Mapping de ProBuilder y el sistema de materiales de Unity para recrear distintas texturas como materiales transparentes, opacos, brillantes y luminicentes
+
+Final:
+
+![Textures](https://github.com/JoanDGG/Semestre-TEC/blob/c42b6609c73e8026fe751a2654571b0d57c74eb8/Proceso/Imagenes/Materiales.png)
+
+## Actividad: Herramientas de modelado
+
+En esta sección se muestra cómo se manejaron distintos formatos para modelos 3D por medio de Unity o Blender, siendo estos objetos creados con el plug-in de Unity de ProBuilder, archivos de tipo .OBJ, y objetos editados en Blender
+
+Final:
+
+ProBuilder  
+![ProBuilder](https://github.com/JoanDGG/Semestre-TEC/blob/c42b6609c73e8026fe751a2654571b0d57c74eb8/Proceso/Imagenes/ProBuilder.png)
+
+OBJ 
+![OBJ](https://github.com/JoanDGG/Semestre-TEC/blob/c42b6609c73e8026fe751a2654571b0d57c74eb8/Proceso/Imagenes/Blender.png)
+
+Blender
+![Blender](https://github.com/JoanDGG/Semestre-TEC/blob/c42b6609c73e8026fe751a2654571b0d57c74eb8/Proceso/Imagenes/Blender2.png)
