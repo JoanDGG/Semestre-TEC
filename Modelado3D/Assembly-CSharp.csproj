@@ -36,27 +36,39 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Minimundo\Scripts\Projectile.cs" />
      <Compile Include="Assets\Scripts\CambiarColor.cs" />
      <Compile Include="Assets\Scripts\Rebote.cs" />
-     <Compile Include="Assets\Flare Gun\Scripts\swayc.cs" />
+     <Compile Include="Assets\Imports\Flare Gun\Scripts\swayc.cs" />
      <Compile Include="Assets\Scripts\MovimientoDisparo.cs" />
      <Compile Include="Assets\Scripts\Escalado.cs" />
      <Compile Include="Assets\Scripts\AnimacionDisparo.cs" />
+     <Compile Include="Assets\Minimundo\Imports\BreakableAsteroids\Scripts\Fracture.cs" />
      <Compile Include="Assets\Scripts\DriveDrone.cs" />
-     <Compile Include="Assets\Flare Gun\Scripts\flareround.cs" />
+     <Compile Include="Assets\Imports\Flare Gun\Scripts\flareround.cs" />
+     <Compile Include="Assets\Scripts\SnapshotManager.cs" />
+     <Compile Include="Assets\Minimundo\Scripts\ShootProjectile.cs" />
      <Compile Include="Assets\Scripts\AnimacionChubby.cs" />
      <Compile Include="Assets\Scripts\Explosion.cs" />
+     <Compile Include="Assets\Minimundo\Scripts\LookAtMouse.cs" />
+     <Compile Include="Assets\Minimundo\Scripts\AsteroidManager.cs" />
+     <Compile Include="Assets\Personajes\Imports\Breakable Windows\Scripts\BreakableWindow.cs" />
      <Compile Include="Assets\Scripts\setMesh.cs" />
      <Compile Include="Assets\Scripts\Disparo.cs" />
-     <Compile Include="Assets\Flare Gun\Scripts\Flaregun.cs" />
+     <Compile Include="Assets\Minimundo\Scripts\Asteroid.cs" />
+     <Compile Include="Assets\Imports\Flare Gun\Scripts\Flaregun.cs" />
+     <Compile Include="Assets\Scripts\Personaje.cs" />
      <Compile Include="Assets\Scripts\Rotacion.cs" />
      <Compile Include="Assets\Scripts\CarAnimation.cs" />
-     <Compile Include="Assets\Flare Gun\Scripts\flarebullet.cs" />
-     <Compile Include="Assets\Scripts\Translacion.cs" />
-     <Compile Include="Assets\Scripts\DoorsInput.cs" />
+     <Compile Include="Assets\Imports\Flare Gun\Scripts\flarebullet.cs" />
      <Compile Include="Assets\Scripts\AudioManager.cs" />
-     <Compile Include="Assets\Scripts\Personaje.cs" />
+     <Compile Include="Assets\Scripts\MicrophoneManager.cs" />
+     <Compile Include="Assets\Scripts\Translacion.cs" />
+     <Compile Include="Assets\Minimundo\Imports\BreakableAsteroids\Scripts\ExampleFracture.cs" />
+     <Compile Include="Assets\Scripts\DoorsInput.cs" />
+     <Compile Include="Assets\Personajes\Scripts\ScenarioManager.cs" />
      <None Include="Assets\Imports\Planets\shader\two_side_shader.shader" />
+     <None Include="Assets\Minimundo\Imports\BreakableAsteroids\Readme.txt" />
     <Reference Include="UnityEngine">
         <HintPath>D:/Unity/2020.2.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
