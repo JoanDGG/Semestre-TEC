@@ -2,8 +2,7 @@
 Actividades realizadas durante el semestre de la concentración de videojuegos I
 
 ## Modelado 3D: 
-Proyecto de Unity donde se esta trabajando actualmente, dentro de la escena SampleScene se encuentra la 
-visualización de la actividad de la creación de figuras por medio de código (triángulo, cubo, octaedro)
+Proyecto de Unity donde se esta trabajando actualmente para las clases del bloque, tanto del modulo 1 (Principio de diseño de juegos), como el modulo 2 (Exploración del proceso de arte digital en el contexto de creación de videojuegos)
 
 ## Proceso: 
 Carpeta en donde se muestran avances o especificaciones de actividades/tareas/proyectos durante el semestre
