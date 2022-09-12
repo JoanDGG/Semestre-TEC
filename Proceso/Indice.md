@@ -1,4 +1,5 @@
 # Indice de actividades en Modelado 3D
+En este índice se muestra la descripción de cada escena en el archivo de Unity Modelado3D, ya que así se dividió la mayoría del progreso realizado en clase
 
 ## Escena: Dron
 Se despliega un dron con su animación por animation controller, se puede girar y avanzar por código
@@ -35,3 +36,21 @@ Se utiliza la función de translación de unity para ejemplificar varios movimie
 
 ## Escena: UV Mapping
 Escena donde se demostró el uso de ProBuilder y UV Mapping para modificar las caras de los objetos creados
+
+## Escena: Actividad Texturas
+En esta escena se realizó como actividad en clase de generar distintos tipos de texturas y materiales para objetos específicos, como objetos opacos, transparentes, luminicentes o brillantes
+
+## Escena: Disparo
+Escena donde se realizó un ejemplo del uso de múltiples sistemas de particulas para simular el disparo de una pistola
+
+## Escena: LoD
+Escena en donde rápidamente se exploró el uso del LoD y cómo este puede ayudar al rendimiento de la ejecución del juego
+
+## Escena: Musica Intro
+En esta escena se utilizaron los Audio Source, y efectos de sonido para aprender su uso básico dentro de Unity
+
+## Escena: Particulas
+Escena en donde se hicieron dos ejemplos de uso de particulas para recrear una fuente de agua y un fuego con humo
+
+## Escena: Sonido
+Escena donde se complementa el tema del audio con Audio Filters & Mixers
