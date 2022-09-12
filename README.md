@@ -6,3 +6,6 @@ Proyecto de Unity donde se esta trabajando actualmente para las clases del bloqu
 
 ## Proceso: 
 Carpeta en donde se muestran avances o especificaciones de actividades/tareas/proyectos durante el semestre
+
+## Proceso proyecto:
+Carpeta donde se registra mi avance durante el proyecto del bloque
