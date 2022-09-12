@@ -50,10 +50,10 @@ En esta sección se muestra cómo se manejaron distintos formatos para modelos 3
 Final:
 
 ProBuilder  
-![ProBuilder](https://github.com/JoanDGG/Semestre-TEC/blob/c42b6609c73e8026fe751a2654571b0d57c74eb8/Proceso/Imagenes/ProBuilder.png)
+![ProBuilder](https://github.com/JoanDGG/Semestre-TEC/blob/51e5f07ff6d23a2588e5893982f6e21b271c4e2e/Proceso/Imagenes/ProBuilder.png)
 
 OBJ 
-![OBJ](https://github.com/JoanDGG/Semestre-TEC/blob/c42b6609c73e8026fe751a2654571b0d57c74eb8/Proceso/Imagenes/Blender.png)
+![OBJ](https://github.com/JoanDGG/Semestre-TEC/blob/51e5f07ff6d23a2588e5893982f6e21b271c4e2e/Proceso/Imagenes/Blender.png)
 
 Blender
-![Blender](https://github.com/JoanDGG/Semestre-TEC/blob/c42b6609c73e8026fe751a2654571b0d57c74eb8/Proceso/Imagenes/Blender2.png)
+![Blender](https://github.com/JoanDGG/Semestre-TEC/blob/51e5f07ff6d23a2588e5893982f6e21b271c4e2e/Proceso/Imagenes/Blender2.png)
