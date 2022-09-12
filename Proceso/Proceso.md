@@ -41,7 +41,7 @@ En esta actividad se realizó el texturizado utilizando la herramienta de UV Map
 
 Final:
 
-![Textures](https://github.com/JoanDGG/Semestre-TEC/blob/c42b6609c73e8026fe751a2654571b0d57c74eb8/Proceso/Imagenes/Materiales.png)
+![Textures](https://github.com/JoanDGG/Semestre-TEC/blob/426919c3e8cc42867e82c915a345bb3a82a4ee23/Proceso/Imagenes/Materiales.png)
 
 ## Actividad: Herramientas de modelado
 
