@@ -36,9 +36,14 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\ActividadAlgebra2.cs" />
+     <Compile Include="Assets\Scripts\Ejercicio4.cs" />
      <Compile Include="Assets\Minimundo\Scripts\Projectile.cs" />
      <Compile Include="Assets\Scripts\CambiarColor.cs" />
+     <Compile Include="Assets\Scripts\Ejercicio2.cs" />
      <Compile Include="Assets\Scripts\Rebote.cs" />
+     <Compile Include="Assets\Scripts\Transformaciones.cs" />
+     <Compile Include="Assets\Scripts\Robot\Extremity.cs" />
      <Compile Include="Assets\Imports\Flare Gun\Scripts\swayc.cs" />
      <Compile Include="Assets\Scripts\MovimientoDisparo.cs" />
      <Compile Include="Assets\Scripts\Escalado.cs" />
@@ -47,12 +52,17 @@
      <Compile Include="Assets\Scripts\DriveDrone.cs" />
      <Compile Include="Assets\Imports\Flare Gun\Scripts\flareround.cs" />
      <Compile Include="Assets\Scripts\SnapshotManager.cs" />
+     <Compile Include="Assets\Scripts\ActividadAlgebra.cs" />
      <Compile Include="Assets\Minimundo\Scripts\ShootProjectile.cs" />
+     <Compile Include="Assets\Scripts\Robot\Robot.cs" />
      <Compile Include="Assets\Scripts\AnimacionChubby.cs" />
      <Compile Include="Assets\Scripts\Explosion.cs" />
      <Compile Include="Assets\Minimundo\Scripts\LookAtMouse.cs" />
      <Compile Include="Assets\Minimundo\Scripts\AsteroidManager.cs" />
+     <Compile Include="Assets\Personajes\Scripts\ScenarioManager.cs" />
+     <Compile Include="Assets\Scripts\Ejercicio3.cs" />
      <Compile Include="Assets\Personajes\Imports\Breakable Windows\Scripts\BreakableWindow.cs" />
+     <Compile Include="Assets\Scripts\Ejercicio6.cs" />
      <Compile Include="Assets\Scripts\setMesh.cs" />
      <Compile Include="Assets\Scripts\Disparo.cs" />
      <Compile Include="Assets\Minimundo\Scripts\Asteroid.cs" />
@@ -61,12 +71,14 @@
      <Compile Include="Assets\Scripts\Rotacion.cs" />
      <Compile Include="Assets\Scripts\CarAnimation.cs" />
      <Compile Include="Assets\Imports\Flare Gun\Scripts\flarebullet.cs" />
+     <Compile Include="Assets\Scripts\Ejercicio5.cs" />
      <Compile Include="Assets\Scripts\AudioManager.cs" />
      <Compile Include="Assets\Scripts\MicrophoneManager.cs" />
      <Compile Include="Assets\Scripts\Translacion.cs" />
+     <Compile Include="Assets\Scripts\Arm.cs" />
      <Compile Include="Assets\Minimundo\Imports\BreakableAsteroids\Scripts\ExampleFracture.cs" />
      <Compile Include="Assets\Scripts\DoorsInput.cs" />
-     <Compile Include="Assets\Personajes\Scripts\ScenarioManager.cs" />
+     <Compile Include="Assets\Scripts\RayCaster.cs" />
      <None Include="Assets\Imports\Planets\shader\two_side_shader.shader" />
      <None Include="Assets\Minimundo\Imports\BreakableAsteroids\Readme.txt" />
     <Reference Include="UnityEngine">
