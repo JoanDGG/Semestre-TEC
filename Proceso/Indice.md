@@ -54,3 +54,6 @@ Escena en donde se hicieron dos ejemplos de uso de particulas para recrear una f
 
 ## Escena: Sonido
 Escena donde se complementa el tema del audio con Audio Filters & Mixers
+
+## Escena: Algebra
+Escena donde se manejan las actividades del módulo 2 del bloque TC3005C.71
