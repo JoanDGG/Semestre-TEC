@@ -70,35 +70,40 @@ Final:
 
 Documento a la presentación: https://docs.google.com/presentation/d/1Kv981rIldvGvKRMKzdF86SA27yR5wVeqqOghsdRcz1g/edit?usp=sharing
 
-### Actividad: Cubo Rubik
+### Introducción a APIs gráficas de bajo nivel: Cubo Rubik
 
 Dentro de esta actividad se simuló el comportamiento de un cubo Rubik creando los 9 cubos individuales y rotandolos con respecto a un pivote para hacer el giro correspondiente
 
 Final
 
-![Rubik](Rubik.png)
+![Rubik](https://github.com/JoanDGG/Semestre-TEC/blob/ee09128fb7f9a95a4a301c14042b082b7df820f2/Proceso/Imagenes/Rubik.png)
 
-### Actividad: Animación de 3 links
+### Pipeline de render en APIs de bajo nivel: Animación de 3 links
 
 En esta actividad se siguió tocando el tema de rotación de pivotes, haciendo que una conexión de 3 bloques giraran con respecto al eje del cubo anterior 
 
 Final
 
-![Arm](Arm.png)
+![Arm](https://github.com/JoanDGG/Semestre-TEC/blob/ee09128fb7f9a95a4a301c14042b082b7df820f2/Proceso/Imagenes/Arm.png)
 
-### Actividad: Animación de robot
+### Operaciones gráficas en OpenGL con C++: Animación de robot
 
 Esta actividad tiene como objetivo medir nuestros conocimientos completos sobre transformaciones para simular el movimiento de un robot caminando, con todas sus extremidades moviéndose en diferentes direcciones y rotaciones
 
 Final
 
-![Robot](Robot.png)
+![Robot](https://github.com/JoanDGG/Semestre-TEC/blob/ee09128fb7f9a95a4a301c14042b082b7df820f2/Proceso/Imagenes/Robot.png)
 
-### Actividad: Render de múltiples esferas
+### Desarrollo de shaders en GLSL para OpenGL: Render de múltiples esferas
 
 En esta última actividad se realizó un render en el que se puede determinar la información visual de una parte del mundo tomando en cuenta su posición e iluminación dentro de una zona de frustrum, logrando renderear en una imagen multiples esferas que se generan por código
 
 Final
 
-![Esferas Unity](Esferas.png)
-![Esferas](/SaveImages/render.png)
+Resultado en Unity
+
+![Esferas Unity](https://github.com/JoanDGG/Semestre-TEC/blob/ee09128fb7f9a95a4a301c14042b082b7df820f2/Proceso/Imagenes/Esferas.png)
+
+Imagen resultante
+
+![Esferas](https://github.com/JoanDGG/Semestre-TEC/blob/ee09128fb7f9a95a4a301c14042b082b7df820f2/Modelado3D/SaveImages/render.png)
