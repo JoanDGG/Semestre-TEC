@@ -36,8 +36,8 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\RayCaster.cs" />
      <Compile Include="Assets\Scripts\ActividadAlgebra2.cs" />
-     <Compile Include="Assets\Scripts\Ejercicio4.cs" />
      <Compile Include="Assets\Minimundo\Scripts\Projectile.cs" />
      <Compile Include="Assets\Scripts\CambiarColor.cs" />
      <Compile Include="Assets\Scripts\Ejercicio2.cs" />
@@ -78,7 +78,8 @@
      <Compile Include="Assets\Scripts\Arm.cs" />
      <Compile Include="Assets\Minimundo\Imports\BreakableAsteroids\Scripts\ExampleFracture.cs" />
      <Compile Include="Assets\Scripts\DoorsInput.cs" />
-     <Compile Include="Assets\Scripts\RayCaster.cs" />
+     <Compile Include="Assets\Cube.cs" />
+     <Compile Include="Assets\Finger.cs" />
      <None Include="Assets\Imports\Planets\shader\two_side_shader.shader" />
      <None Include="Assets\Minimundo\Imports\BreakableAsteroids\Readme.txt" />
     <Reference Include="UnityEngine">
