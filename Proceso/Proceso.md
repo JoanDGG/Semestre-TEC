@@ -76,6 +76,12 @@ Dentro de esta actividad se simuló el comportamiento de un cubo Rubik creando l
 
 Final
 
+[Cube.cs](../Modelado3D/Assets/Scripts/Cube.cs)
+
+[Transformaciones.cs](../Modelado3D/Assets/Scripts/Transformaciones.cs)
+
+![Video Rubik](https://github.com/JoanDGG/Semestre-TEC/blob/6e2bbf15a552eeed7710befe7409b6aa2210b84a/Proceso/Imagenes/RubikVideo.mp4)
+
 ![Rubik](https://github.com/JoanDGG/Semestre-TEC/blob/ee09128fb7f9a95a4a301c14042b082b7df820f2/Proceso/Imagenes/Rubik.png)
 
 ### Pipeline de render en APIs de bajo nivel: Animación de 3 links
@@ -83,6 +89,12 @@ Final
 En esta actividad se siguió tocando el tema de rotación de pivotes, haciendo que una conexión de 3 bloques giraran con respecto al eje del cubo anterior 
 
 Final
+
+[Finger.cs](../Modelado3D/Assets/Scripts/Finger.cs)
+
+[Transformaciones.cs](../Modelado3D/Assets/Scripts/Transformaciones.cs)
+
+![Arm video](https://github.com/JoanDGG/Semestre-TEC/blob/6e2bbf15a552eeed7710befe7409b6aa2210b84a/Proceso/Imagenes/ArmVideo.mp4)
 
 ![Arm](https://github.com/JoanDGG/Semestre-TEC/blob/ee09128fb7f9a95a4a301c14042b082b7df820f2/Proceso/Imagenes/Arm.png)
 
@@ -92,6 +104,10 @@ Esta actividad tiene como objetivo medir nuestros conocimientos completos sobre 
 
 Final
 
+![Robot scripts](../Modelado3D/Assets/Scripts/Robot/)
+
+![Robot video](https://github.com/JoanDGG/Semestre-TEC/blob/6e2bbf15a552eeed7710befe7409b6aa2210b84a/Proceso/Imagenes/RobotVideo.mp4)
+
 ![Robot](https://github.com/JoanDGG/Semestre-TEC/blob/ee09128fb7f9a95a4a301c14042b082b7df820f2/Proceso/Imagenes/Robot.png)
 
 ### Desarrollo de shaders en GLSL para OpenGL: Render de múltiples esferas
@@ -99,6 +115,8 @@ Final
 En esta última actividad se realizó un render en el que se puede determinar la información visual de una parte del mundo tomando en cuenta su posición e iluminación dentro de una zona de frustrum, logrando renderear en una imagen multiples esferas que se generan por código
 
 Final
+
+![RayCaster.cs](../Modelado3D/Assets/Scripts/RayCaster.cs)
 
 Resultado en Unity
 
