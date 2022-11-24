@@ -140,16 +140,16 @@ Imagen resultante
 
 En esta actividad se desarrollaron dos shaders para hacer la ilusión de una textura cell shader, una por medio de la recepción de un rango de valores, y otro por la lectura de un mapa de texturas
 
-![ToonShader](ToonShader.png)
+![ToonShader](https://github.com/JoanDGG/Semestre-TEC/blob/ebc3748952fcda7c7955b11775b5f580ee843d91/Proceso/Imagenes/ToonShader.png)
 
 ### Actividad: Tanques FSM
 
 Aquí se desarrolló un mini juego en donde tu manejas un tanque y tienes que derrotar a varios tanques enemigos, que se manejan por medio de una maquina de estados finito
 
-![Tanques](Tanques.png)
+![Tanques](https://github.com/JoanDGG/Semestre-TEC/blob/ebc3748952fcda7c7955b11775b5f580ee843d91/Proceso/Imagenes/Tanques.png)
 
 ### Actividad: Parvadas
 
 En esta actividad se manejó un sistema de parvadas en donde varios agentes se mueven siguiendo un determinado comportamiento para llegar a cierto destino, y poder esquivar obstáculos individualmente
 
-![Flock](Flock.png)
+![Flock](https://github.com/JoanDGG/Semestre-TEC/blob/ebc3748952fcda7c7955b11775b5f580ee843d91/Proceso/Imagenes/Flock.png)
