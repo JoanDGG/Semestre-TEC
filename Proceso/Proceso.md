@@ -62,6 +62,16 @@ Blender
 
 ## Bloque TC3005C.71
 
+### Actividad: Minimundo
+
+Aquí se realizó una escena en Unity usando todos los conocimientos que hemos adquirido de timelines, animaciones, efectos de sonido y manejo de inputs creando un escenario simple
+
+Final:
+
+![Carpeta del minijuego](../Modelado3D/Assets/Minimundo/)
+
+![Minimundo](Minimundo.png)
+
 ### Actividad: Introducción a servicios y librerías para desarrollo multijugador
 
 En esta actividad en equipo se hizo una pequeña investigación de varios conceptos / tecnologías relativas al desarrollo de juegos multijugador. Tocando temas de conexión de peer-to-peer, cliente-servidor y protocolos que podríamos estar utilizando con Unity para el sistema multijugador
@@ -125,3 +135,21 @@ Resultado en Unity
 Imagen resultante
 
 ![Esferas](https://github.com/JoanDGG/Semestre-TEC/blob/ee09128fb7f9a95a4a301c14042b082b7df820f2/Modelado3D/SaveImages/render.png)
+
+### Actividad: Cell Shader
+
+En esta actividad se desarrollaron dos shaders para hacer la ilusión de una textura cell shader, una por medio de la recepción de un rango de valores, y otro por la lectura de un mapa de texturas
+
+![ToonShader](ToonShader.png)
+
+### Actividad: Tanques FSM
+
+Aquí se desarrolló un mini juego en donde tu manejas un tanque y tienes que derrotar a varios tanques enemigos, que se manejan por medio de una maquina de estados finito
+
+![Tanques](Tanques.png)
+
+### Actividad: Parvadas
+
+En esta actividad se manejó un sistema de parvadas en donde varios agentes se mueven siguiendo un determinado comportamiento para llegar a cierto destino, y poder esquivar obstáculos individualmente
+
+![Flock](Flock.png)
