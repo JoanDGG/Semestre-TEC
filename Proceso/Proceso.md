@@ -146,6 +146,24 @@ Imagen resultante
 
 ![Esferas](https://github.com/JoanDGG/Semestre-TEC/blob/ee09128fb7f9a95a4a301c14042b082b7df820f2/Modelado3D/SaveImages/render.png)
 
+### Actividad: Herramientas para UX
+
+Aquí se desarrolló con el equipo del proyecto un wireframe para el diseño de interfaz de Planet Crash, en el que, a partir de varios diseños, se seleccionaron los más apropiados para toda la aplicación
+
+[Carpeta de Drive con el Wireframe](https://drive.google.com/drive/folders/1uIWcmWswvTmdr_VNORsSxEUhlVZRkT80?usp=share_link)
+
+### Actividad: Proceso de diseño orientado al usuario
+
+Desarrollo de un prototipo de diseño para una aplicación utilizando el programa de Invision como introducción al UX/UI
+
+[Prototipo de Invision](../Proceso/Evidencias/Prototipo1.studio)
+
+### Actividad: Diseño de interfaz gráfica
+
+En el siguiente link se adjunta el proyecto de invision del proyecto de Planet Crash tomando en cuenta el Wireframe anterior y los comentarios realizados por usuarios finales
+
+[Invision](https://ian641733.invisionapp.com/console/share/PDSCF9VX6AG/967227323)
+
 ### Actividad: Cell Shader
 
 En esta actividad se desarrollaron dos shaders para hacer la ilusión de una textura cell shader, una por medio de la recepción de un rango de valores, y otro por la lectura de un mapa de texturas
