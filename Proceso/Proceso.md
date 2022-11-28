@@ -68,7 +68,7 @@ Aquí se realizó una escena en Unity usando todos los conocimientos que hemos a
 
 Final:
 
-![Carpeta del minijuego](../Modelado3D/Assets/Minimundo/)
+[Carpeta del minijuego](../Modelado3D/Assets/Minimundo/)
 
 ![Minimundo](https://github.com/JoanDGG/Semestre-TEC/blob/cea1369c6685d9b79c0b6fa8d96321bb12f2cd61/Proceso/Imagenes/Minimundo.png)
 
@@ -78,9 +78,9 @@ En esta actividad se desarrolló en equipo un paquete redistribuible de unity en
 
 Final:
 
-![Paquete del plug-in](../Proceso/Evidencias/SpectrumViewer.unitypackage)
+[Paquete del plug-in](../Proceso/Evidencias/SpectrumViewer.unitypackage)
 
-![Video de demostracion](Plugin.mp4)
+[Video de demostracion](Plugin.mp4)
 
 ### Actividad: Introducción a servicios y librerías para desarrollo multijugador
 
@@ -88,7 +88,7 @@ En esta actividad en equipo se hizo una pequeña investigación de varios concep
 
 Final:
 
-![Documento a la presentación](https://docs.google.com/presentation/d/1Kv981rIldvGvKRMKzdF86SA27yR5wVeqqOghsdRcz1g/edit?usp=sharing)
+[Documento a la presentación](https://docs.google.com/presentation/d/1Kv981rIldvGvKRMKzdF86SA27yR5wVeqqOghsdRcz1g/edit?usp=sharing)
 
 ### Introducción a APIs gráficas de bajo nivel: Cubo Rubik
 
@@ -100,7 +100,7 @@ Final
 
 [Transformaciones.cs](../Modelado3D/Assets/Scripts/Transformaciones.cs)
 
-![Video Rubik](https://github.com/JoanDGG/Semestre-TEC/blob/6e2bbf15a552eeed7710befe7409b6aa2210b84a/Proceso/Imagenes/RubikVideo.mp4)
+[Video Rubik](https://github.com/JoanDGG/Semestre-TEC/blob/6e2bbf15a552eeed7710befe7409b6aa2210b84a/Proceso/Imagenes/RubikVideo.mp4)
 
 ![Rubik](https://github.com/JoanDGG/Semestre-TEC/blob/ee09128fb7f9a95a4a301c14042b082b7df820f2/Proceso/Imagenes/Rubik.png)
 
@@ -114,7 +114,7 @@ Final
 
 [Transformaciones.cs](../Modelado3D/Assets/Scripts/Transformaciones.cs)
 
-![Arm video](https://github.com/JoanDGG/Semestre-TEC/blob/6e2bbf15a552eeed7710befe7409b6aa2210b84a/Proceso/Imagenes/ArmVideo.mp4)
+[Arm video](https://github.com/JoanDGG/Semestre-TEC/blob/6e2bbf15a552eeed7710befe7409b6aa2210b84a/Proceso/Imagenes/ArmVideo.mp4)
 
 ![Arm](https://github.com/JoanDGG/Semestre-TEC/blob/ee09128fb7f9a95a4a301c14042b082b7df820f2/Proceso/Imagenes/Arm.png)
 
@@ -124,9 +124,9 @@ Esta actividad tiene como objetivo medir nuestros conocimientos completos sobre 
 
 Final
 
-![Robot scripts](../Modelado3D/Assets/Scripts/Robot/)
+[Robot scripts](../Modelado3D/Assets/Scripts/Robot/)
 
-![Robot video](https://github.com/JoanDGG/Semestre-TEC/blob/6e2bbf15a552eeed7710befe7409b6aa2210b84a/Proceso/Imagenes/RobotVideo.mp4)
+[Robot video](https://github.com/JoanDGG/Semestre-TEC/blob/6e2bbf15a552eeed7710befe7409b6aa2210b84a/Proceso/Imagenes/RobotVideo.mp4)
 
 ![Robot](https://github.com/JoanDGG/Semestre-TEC/blob/ee09128fb7f9a95a4a301c14042b082b7df820f2/Proceso/Imagenes/Robot.png)
 
@@ -136,7 +136,7 @@ En esta última actividad se realizó un render en el que se puede determinar la
 
 Final
 
-![RayCaster.cs](../Modelado3D/Assets/Scripts/RayCaster.cs)
+[RayCaster.cs](../Modelado3D/Assets/Scripts/RayCaster.cs)
 
 Resultado en Unity
 
@@ -150,9 +150,9 @@ Imagen resultante
 
 En esta actividad se desarrollaron dos shaders para hacer la ilusión de una textura cell shader, una por medio de la recepción de un rango de valores, y otro por la lectura de un mapa de texturas
 
-![Script ToonShader](../Proceso/Evidencias/ToonShader.shader)
+[Script ToonShader](../Proceso/Evidencias/ToonShader.shader)
 
-![Script ToonShader con textura](../Proceso/Evidencias/TextToonShader.shader)
+[Script ToonShader con textura](../Proceso/Evidencias/TextToonShader.shader)
 
 ![ToonShader](https://github.com/JoanDGG/Semestre-TEC/blob/ebc3748952fcda7c7955b11775b5f580ee843d91/Proceso/Imagenes/ToonShader.png)
 
@@ -160,7 +160,7 @@ En esta actividad se desarrollaron dos shaders para hacer la ilusión de una tex
 
 Aquí se desarrolló un mini juego en donde tu manejas un tanque y tienes que derrotar a varios tanques enemigos, que se manejan por medio de una maquina de estados finito
 
-![Repositorio del proyecto de Tanques FSM](https://github.com/JoanDGG/FSM-Example)
+[Repositorio del proyecto de Tanques FSM](https://github.com/JoanDGG/FSM-Example)
 
 ![Tanques](https://github.com/JoanDGG/Semestre-TEC/blob/ebc3748952fcda7c7955b11775b5f580ee843d91/Proceso/Imagenes/Tanques.png)
 
@@ -168,6 +168,6 @@ Aquí se desarrolló un mini juego en donde tu manejas un tanque y tienes que de
 
 En esta actividad se manejó un sistema de parvadas en donde varios agentes se mueven siguiendo un determinado comportamiento para llegar a cierto destino, y poder esquivar obstáculos individualmente
 
-![Script Flock](../Proceso/Evidencias/Flock.cs)
+[Script Flock](../Proceso/Evidencias/Flock.cs)
 
 ![Flock](https://github.com/JoanDGG/Semestre-TEC/blob/ebc3748952fcda7c7955b11775b5f580ee843d91/Proceso/Imagenes/Flock.png)
