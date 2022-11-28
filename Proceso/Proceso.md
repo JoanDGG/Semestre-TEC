@@ -80,7 +80,7 @@ Final:
 
 [Paquete del plug-in](../Proceso/Evidencias/SpectrumViewer.unitypackage)
 
-[Video de demostracion](Plugin.mp4)
+[Video de demostracion](https://github.com/JoanDGG/Semestre-TEC/blob/b5bd2601b295e0c123bbf9d39675e73a3a7a7d3a/Proceso/Imagenes/PlugIn.mp4)
 
 ### Actividad: Introducción a servicios y librerías para desarrollo multijugador
 
