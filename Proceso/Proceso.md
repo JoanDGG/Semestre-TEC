@@ -88,6 +88,8 @@ En esta actividad en equipo se hizo una pequeña investigación de varios concep
 
 Final:
 
+[Link para video de presentación](https://drive.google.com/file/d/1h-Xi6d2pP0W5nzr_zIs7G5TKF7cGOBOF/view?usp=sharing)
+
 [Documento a la presentación](https://docs.google.com/presentation/d/1Kv981rIldvGvKRMKzdF86SA27yR5wVeqqOghsdRcz1g/edit?usp=sharing)
 
 ### Introducción a APIs gráficas de bajo nivel: Cubo Rubik
