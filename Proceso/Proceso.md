@@ -72,13 +72,23 @@ Final:
 
 ![Minimundo](https://github.com/JoanDGG/Semestre-TEC/blob/cea1369c6685d9b79c0b6fa8d96321bb12f2cd61/Proceso/Imagenes/Minimundo.png)
 
+### Actividad: Desarrollo de Plug-in
+
+En esta actividad se desarrolló en equipo un paquete redistribuible de unity en el que se plantea un visualizador de espectro para un receptor de sonido
+
+Final:
+
+![Paquete del plug-in](../Proceso/Evidencias/SpectrumViewer.unitypackage)
+
+![Video de demostracion](Plugin.mp4)
+
 ### Actividad: Introducción a servicios y librerías para desarrollo multijugador
 
 En esta actividad en equipo se hizo una pequeña investigación de varios conceptos / tecnologías relativas al desarrollo de juegos multijugador. Tocando temas de conexión de peer-to-peer, cliente-servidor y protocolos que podríamos estar utilizando con Unity para el sistema multijugador
 
 Final:
 
-Documento a la presentación: https://docs.google.com/presentation/d/1Kv981rIldvGvKRMKzdF86SA27yR5wVeqqOghsdRcz1g/edit?usp=sharing
+![Documento a la presentación](https://docs.google.com/presentation/d/1Kv981rIldvGvKRMKzdF86SA27yR5wVeqqOghsdRcz1g/edit?usp=sharing)
 
 ### Introducción a APIs gráficas de bajo nivel: Cubo Rubik
 
@@ -140,6 +150,10 @@ Imagen resultante
 
 En esta actividad se desarrollaron dos shaders para hacer la ilusión de una textura cell shader, una por medio de la recepción de un rango de valores, y otro por la lectura de un mapa de texturas
 
+![Script ToonShader](../Proceso/Evidencias/ToonShader.shader)
+
+![Script ToonShader con textura](../Proceso/Evidencias/TextToonShader.shader)
+
 ![ToonShader](https://github.com/JoanDGG/Semestre-TEC/blob/ebc3748952fcda7c7955b11775b5f580ee843d91/Proceso/Imagenes/ToonShader.png)
 
 ### Actividad: Tanques FSM
@@ -153,5 +167,7 @@ Aquí se desarrolló un mini juego en donde tu manejas un tanque y tienes que de
 ### Actividad: Parvadas
 
 En esta actividad se manejó un sistema de parvadas en donde varios agentes se mueven siguiendo un determinado comportamiento para llegar a cierto destino, y poder esquivar obstáculos individualmente
+
+![Script Flock](../Proceso/Evidencias/Flock.cs)
 
 ![Flock](https://github.com/JoanDGG/Semestre-TEC/blob/ebc3748952fcda7c7955b11775b5f580ee843d91/Proceso/Imagenes/Flock.png)
